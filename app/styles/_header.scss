@@ -1,4 +1,12 @@
 .header{
+
+    nav{
+       padding: 25px;
+       padding-top: 48px;
+       padding-bottom: 75px;
+    }
+
+
     &__logo{
 
         img{
@@ -8,8 +16,5 @@
 
     &__menu{ //Mobile Menu
 
-        >span{
-            display: inline;
-        }
     }
 }

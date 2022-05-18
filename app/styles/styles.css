@@ -40,7 +40,9 @@ body {
           align-items: center;
 }
 
-.header__menu > span {
-  display: inline;
+.header nav {
+  padding: 25px;
+  padding-top: 48px;
+  padding-bottom: 75px;
 }
 /*# sourceMappingURL=styles.css.map */
