@@ -12,8 +12,14 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-size: 18px;
   line-height: 1.3;
   font-family: 'Epilogue', sans-serif;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: dimgray;
 }
 
 .flex {
@@ -44,5 +50,10 @@ body {
   padding: 25px;
   padding-top: 48px;
   padding-bottom: 75px;
+}
+
+.header__links a {
+  font-size: 14px;
+  color: dimgray;
 }
 /*# sourceMappingURL=styles.css.map */

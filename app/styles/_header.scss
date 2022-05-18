@@ -14,7 +14,12 @@
         }
     }
 
-    &__menu{ //Mobile Menu
+    &__links{
 
+        a {
+            font-size: $font-sm;
+            color: $mediumGray;
+        }
     }
+
 }
