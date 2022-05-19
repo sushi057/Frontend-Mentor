@@ -46,6 +46,14 @@ a, a:visited, a:hover {
           align-items: center;
 }
 
+a.register-button {
+  border: 3px dimgray solid;
+  border-radius: 20px;
+  padding: 18px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
 .header nav {
   padding: 25px;
   padding-top: 48px;

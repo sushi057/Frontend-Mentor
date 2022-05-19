@@ -37,4 +37,23 @@ a, a:visited, a:hover{
     }
 }
 
-//Buttons
+a.register-button{
+    border: 3px $mediumGray solid;
+    border-radius: 20px;
+    padding: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+//Visibility
+.hide-for-mobile{
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktops{
+    @include breakpoint-up(large){
+        display: none;
+    }
+}
