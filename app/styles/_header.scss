@@ -6,21 +6,15 @@
        padding-bottom: 75px;
     }
 
-
-    &__logo{
-
-        img{
-
-        }
-    }
-
     &__links{
 
         a {
             font-size: $font-sm;
             color: $mediumGray;
+            margin: 35px;
         }
     }
 
 }
 
+ 

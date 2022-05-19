@@ -45,6 +45,10 @@ a.register-button{
     padding-bottom: 11px;
 }
 
+a.login-button{
+    margin-right: 0;
+}
+
 //Visibility
 .hide-for-mobile{
     @include breakpoint-down(medium){
